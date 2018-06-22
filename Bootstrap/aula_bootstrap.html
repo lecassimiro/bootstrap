@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula de Bootstrap</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.css">
+    <link rel="stylesheet" href="resources/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="resources/css/bootstrap-reboot.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Início da linha -->
+        <div class="row">
+            <!-- Início da coluna Cadastro de Produto -->
+            <div class="col-6">
+                <fieldset>
+                    <legend>Cadastro de Produto</legend>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>
+                        <div class="form-group"></div>
+                        <label for="categoria">Categoria</label>
+                        <select class="form-control" name="categoria" id="categoria">
+                            <option value="1">Eletrônicos</option>
+                            <option value="2"> Telefonia</option>
+                            <option value="3">Informática</option>
+                        </select>
+                    </form>
+                    <br>
+                        <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-success btn-block" type="submit">Cadastar</button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-danger btn-block" type="reset">Limpar</button>
+                        </div>
+                    </div>
+                    <!-- a cor do botão pode mudar. Basta colocar uma classe, ex.: .cor-botao: backgroud-color...-->
+
+                </fieldset>
+            </div>
+            <!-- Final da coluna Cadastro de Produto -->
+            <!-- Início da coluna da Lista de produtos -->
+            <div class="col-6">
+                <fieldset>
+                    <legend>Lista de produtos</legend>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>nome</th>
+                                <th>categoria</th>
+                                <th>ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>notebook</td>
+                                <td>Informática</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>TV 50'' philco</td>
+                                <td>Eletrônicos</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>celular samsung 10</td>
+                                <td>Telefonia</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>pen drive sandisk</td>
+                                <td>Informática</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+
+                                    </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </div>
+        </div>
+        <!-- Final da linha -->
+    </div>
+
+    <script src="resources/js/jquery.js.js"></script>
+    <script src="resources/js/popper.js"></script>
+    <script src="resources/js/bootstrap.js"></script>
+    <script src="resources/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

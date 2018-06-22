@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#cabecalho {
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#corpo {
+    width: 700px;
+    height: 800px;
+    background-color: pink;
+}
+
+#menu-superior {
+    width: 700px;
+    height: 80px;
+    background-color: brown;
+}
+
+#menu-lateral {
+    width: 180px;
+    height: 800px;
+    background-color: purple;
+    float: left;
+}
+
+#conteudo {
+    width: 400px;
+    height: 800px;
+    float: left;
+    background-color: chocolate;
+}
+
+#noticias {
+    width: 200px;
+    height: 800px;
+    float: left;
+    background-color: lightcoral;
+}
+#rodape {
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#container {
+    margin:auto;
+    width: 700px;
+}
