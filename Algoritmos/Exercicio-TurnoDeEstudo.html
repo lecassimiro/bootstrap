@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<script>
+    let text = 'Digite\nM-Manhã\nV-Vespertino\nN-Noturno';
+    let resposta = prompt(text).toLowerCase().trim().charAt(0);
+    switch (resposta) {
+        case 'm':
+            resposta = 'Bom dia';
+            break;
+        case 'v':
+            resposta = 'Boa tarde';
+            break;
+        case 'n':
+            resposta = 'Boa noite';
+            break;
+        default:
+            resposta = 'valor inválido';
+    }
+    alert(resposta);
+</script>
+
+</html> 
